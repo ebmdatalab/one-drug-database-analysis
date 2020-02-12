@@ -1,31 +1,7 @@
-# EBM DataLab's skeleton notebook environment
+# Analysing the impact of the One Drug Database on OpenPrescribing
 
-![status](https://github.com/ebmdatalab/custom-docker/workflows/Notebook%20checks/badge.svg)
+![status](https://github.com/ebmdatalab/one-drug-database-analysis/workflows/Notebook%20checks/badge.svg)
 
-## Getting started with this skeleton project
+The BSA publish the [Detailed Prescribing Information](https://www.nhsbsa.nhs.uk/prescription-data/prescribing-data/detailed-prescribing-information) dataset monthly, which contains the number of items prescribed of each presentation for each practice.  In 2020 they are changing the underlying database which produces this dataset.  This is called the [One Drug Database project](https://www.nhsbsa.nhs.uk/important-information-drug-data), and these changes will affect the Detailed Prescribing Information dataset that we use.
 
-This is a skeleton project for creating a reproducible, cross-platform
-analysis notebook, using Docker.  It also includes:
-
-* configuration for `jupytext`, to support easier code review
-* cross-platform startup scripts
-* best practice folder structure and documentation
-
-Developers and analysts using this skeleton for new development should
-refer to [`DEVELOPERS.md`](DEVELOPERS.md) for instructions on getting
-started.  Update this `README.md` so it is a suitable introduction to
-your project.
-
-## How to view the notebooks
-
-Notebooks live in the `notebooks/` folder (with an `ipynb`
-extension). You can most easily view them [on
-nbviewer](https://nbviewer.jupyter.org/github/ebmdatalab/seb-docker-test/tree/master/notebooks/),
-though looking at them in Github should also work.
-
-To do development work, you'll need to set up a local jupyter server
-and git repository - see `DEVELOPERS.md` for more detail.
-
-## How to cite
-
-XXX
+[View the analysis](https://github.com/ebmdatalab/one-drug-database-analysis/blob/master/notebooks/one-drug-database-analysis.ipynb), or run the analysis yourself by [adapting the instructions for developers](https://github.com/ebmdatalab/one-drug-database-analysis/blob/master/DEVELOPERS.md).
